@@ -8,6 +8,10 @@ using UnityEngine.InputSystem.LowLevel;
 public class PlayerController : MonoBehaviour
 {
     public static PlayerController instance;
+
+    // Player Status
+
+
     // Player movement
     public PlayerAction inputAction;
     Vector2 move;

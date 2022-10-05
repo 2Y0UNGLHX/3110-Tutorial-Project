@@ -19,6 +19,13 @@ public class ScoreManager : MonoBehaviour
     public void ChangeScore(int coinValue)
     {
         score += coinValue;
+        
+        Debug.Log(score);
+    }
+
+    public void scoreCalculation(int health)
+    {
+        score += health;
         Debug.Log(score);
     }
 }
